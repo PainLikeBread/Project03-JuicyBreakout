@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: 820386884100393326}
   - component: {fileID: -958498322310327258}
   - component: {fileID: -35968224411606719}
+  - component: {fileID: 4693600831179277339}
   m_Layer: 0
   m_Name: Ball
   m_TagString: ball
@@ -202,9 +203,11 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"initialSpeed","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"highlightRenderer","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.SpriteRenderer,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"cometContainer","value":null,"typeHandle":{"Identification":"UnityEngine.Transform,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"cometPrefab","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1512298285755155295}
+    - {fileID: 4650596125386521317, guid: 37664e9871ab7d54da1ff71d9b3eed08, type: 3}
 --- !u!114 &4461624536069388539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5114,6 +5117,18 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!122 &4693600831179277339
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650596125386521317}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4290177509
+  m_Size: 0.2
 --- !u!1 &8060886088806652135
 GameObject:
   m_ObjectHideFlags: 0

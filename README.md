@@ -1,15 +1,16 @@
 # Project03-JuicyBreakout
 
 # Project Name
-Context and date
+Break Out
 
 Description
-
+Brick Breaker, project practicing tweening, music, sound, shaders
 ## Implementation
-Which features you included
+Includes custom music, custom sounds, tweening with bricks and platform, particle effects, custom shaders, Custom assets, new font
 
 ## References
-
+"Our Journey Ends Here" - Spheria
 ## Future Development
 
 ## Created by
+Mitchell Coons
